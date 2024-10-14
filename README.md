@@ -25,7 +25,7 @@ The Postman collection titled **Node js - Assignment1** is structured to handle:
 
 Before using these endpoints, make sure you have the following prerequisites:
 - Node.js installed on your system.
-- A local server running on `http://localhost:5000`.
+- A local server running on `http://localhost:3000`.
 - Postman installed for testing or any other API testing tool.
 
 ## API Endpoints
@@ -34,7 +34,7 @@ Before using these endpoints, make sure you have the following prerequisites:
 
 1. **Sign Up**  
    - **Method**: `POST`  
-   - **URL**: `http://localhost:5000/api/v1/user/signup`  
+   - **URL**: `http://localhost:3000/api/v1/user/signup`  
    - **Description**: Creates a new user account with validation using `express-validator`.  
    - **Request Body**:
      ```json
@@ -48,7 +48,7 @@ Before using these endpoints, make sure you have the following prerequisites:
 
 2. **Login**  
    - **Method**: `POST`  
-   - **URL**: `http://localhost:5000/api/v1/user/login`  
+   - **URL**: `http://localhost:3000/api/v1/user/login`  
    - **Description**: Authenticates a user with email and password using JWT tokens.  
    - **Request Body**:
      ```json
@@ -63,7 +63,7 @@ Before using these endpoints, make sure you have the following prerequisites:
 
 1. **Add Employee**  
    - **Method**: `POST`  
-   - **URL**: `http://localhost:5000/api/v1/emp/employees`  
+   - **URL**: `http://localhost:3000/api/v1/emp/employees`  
    - **Description**: Adds a new employee record. The request is validated using `express-validator`.  
    - **Request Body**:
      ```json
@@ -98,7 +98,7 @@ Before using these endpoints, make sure you have the following prerequisites:
 
 5. **Update Employee**  
    - **Method**: `PUT`  
-   - **URL**: `http://localhost:5000/api/v1/emp/employees/{employee_id}`  
+   - **URL**: `http://localhost:3000/api/v1/emp/employees/{employee_id}`  
    - **Description**: Updates the details of an existing employee. Replace `{employee_id}` with the actual ID of the employee.  
    - **Request Body**:
      ```json
@@ -117,5 +117,5 @@ Before using these endpoints, make sure you have the following prerequisites:
 
 To use the API endpoints:
 1. Import the Postman collection into your Postman application.
-2. Ensure your local server is running on `http://localhost:5000`.
+2. Ensure your local server is running on `http://localhost:3000`.
 3. Test each endpoint using the request examples provided.
